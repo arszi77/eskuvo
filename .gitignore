@@ -1,0 +1,11 @@
+# Operációs rendszer és szerkesztő által létrehozott fájlok
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Helyi ideiglenes fájlok
+*.log
+*.tmp
+*.bak
