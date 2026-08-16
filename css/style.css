@@ -24,3 +24,16 @@
 .ceremony-details ul{columns:2;gap:2rem;margin:.8rem 0 0;padding-left:1.2rem;font-size:.92rem}
 .ceremony-details li{display:list-item;padding:.12rem 0;border:0}
 @media(max-width:600px){.schedule:before{left:7px}.timeline .schedule-item{grid-template-columns:1fr;gap:.45rem;padding:1.4rem 0 1.4rem 2rem}.schedule-item:before,.schedule-item.compact:before{left:0;top:1.75rem}.timeline .schedule-item>time,.timeline .schedule-time{color:var(--red);font-size:.82rem}.schedule-item.highlight>div{margin-right:.35rem}.ceremony-details ul{columns:1}}
+
+/* Közös fotóalbum */
+.news-link{display:inline-block;margin-top:.35rem;font-weight:800;text-underline-offset:4px}
+.photos{display:grid;grid-template-columns:minmax(280px,.85fr) minmax(0,1.15fr);gap:clamp(3rem,8vw,8rem);align-items:center;background:#d9d0bb;overflow:hidden}
+.photos-copy{max-width:680px}.photos-copy>p:not(.eyebrow){font-size:clamp(1.05rem,2vw,1.3rem)}
+.photos-button{margin-top:1rem;background:var(--lime)}
+.photo-collage{position:relative;min-height:430px}.photo-frame{position:absolute;display:grid;place-items:center;border:12px solid var(--white);box-shadow:var(--shadow)}
+.photo-frame span{font-size:clamp(4rem,8vw,7rem)}
+.photo-one{inset:2rem 18% 7rem 0;background:var(--green);color:var(--lime);transform:rotate(-5deg)}
+.photo-two{inset:8rem 0 1rem 36%;background:var(--orange);transform:rotate(6deg)}
+.photo-tape{position:absolute;top:5rem;left:42%;width:100px;height:30px;background:rgba(243,238,223,.72);transform:rotate(12deg)}
+@media(max-width:900px){.photos{grid-template-columns:1fr}.photo-collage{max-width:560px;width:100%;min-height:360px}.main-nav{overflow-y:auto;max-height:calc(100svh - 70px)}}
+@media(max-width:600px){.photos{gap:2rem}.photo-collage{min-height:280px}.photo-frame{border-width:8px}.mobile-bar{grid-template-columns:repeat(3,1fr)}.mobile-bar a{font-size:.82rem;padding-inline:.35rem}.mobile-bar a:nth-child(2){background:var(--orange);color:var(--ink)}}
