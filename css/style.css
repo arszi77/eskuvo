@@ -47,3 +47,10 @@
 .guest-info-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-top:2rem}.guest-info{border:2px solid;padding:2rem;background:var(--white)}.guest-info.rain{background:var(--lime)}.important-note{font-weight:800;background:var(--orange);padding:.75rem}
 @media(max-width:900px){.guest-info-grid{grid-template-columns:1fr 1fr}.guest-info:last-child{grid-column:1/-1}}
 @media(max-width:600px){.hero{padding-block:5.5rem}.quick-card{min-height:200px}.packing{grid-template-columns:1fr}.guest-info-grid{grid-template-columns:1fr}.guest-info:last-child{grid-column:auto}.parking{padding:1.25rem}.place-card dl div{gap:1rem}.place-card dd{text-align:right}}
+
+/* Utolsó tartalmi finomhangolások. */
+.hero h1{line-height:.84;letter-spacing:-.045em;margin-block:1.35rem 2.7rem}.hero h1 span+span{padding-top:.08em}.hero h1 i{line-height:1;transform:translate(45%,5%) rotate(-8deg)}
+.lodging-reminder{margin:1.5rem 0 .5rem;padding:1.2rem;border:1px solid rgba(255,255,255,.45);background:inherit}.lodging-reminder h4{font:700 1.2rem/1.25 var(--serif);margin:0 0 .6rem}.lodging-reminder p{margin:0;font-size:.92rem}
+.transfer-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}.transfer-grid>div{padding:1.25rem;border:2px solid;background:var(--white);min-height:210px}.transfer-grid h4{font:700 1.5rem var(--serif);margin:0 0 .75rem}.transfer-grid p:last-child{margin-bottom:0}
+.spotify-help{max-width:520px;margin:-1.2rem 0 2rem;font-size:.85rem;color:#ddd}
+@media(max-width:600px){.hero>*{min-width:0}.hero h1{line-height:.9;letter-spacing:-.025em;margin-block:1.5rem 2.4rem}.hero h1 i{transform:translate(25%,10%) rotate(-8deg)}.date-strip{width:100%}.date-strip strong{min-width:0;overflow-wrap:anywhere}.countdown-card{width:calc(100% - 1rem);transform:rotate(1deg)}.transfer-grid{grid-template-columns:1fr}.transfer-grid>div{min-height:auto}}
